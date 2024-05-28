@@ -10,7 +10,7 @@ public class EnemyObject : ScriptableObject
     [SerializeField] private string saludo;
 
     public string Nombre { get { return nombre; } }
-    public int Vida { get { return vida; } set { vida = value; } }
+    public int Vida { get { return vida; } }
     public string Saludo { get { return saludo; } }
 
     public void PrintData()
