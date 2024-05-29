@@ -16,7 +16,7 @@ public class EnemyObject : ScriptableObject
     public void PrintData()
     {
         Debug.Log("Nombre: " + nombre);
-        Debug.Log("Vida: " + vida);
+        Debug.Log("Vida maxima: " + vida);
         Debug.Log(saludo);
     }
 }
